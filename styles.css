@@ -1,0 +1,50 @@
+/* will do later */
+html{
+    font-family: arial;
+	font-size: 25px;
+	background-color: blue;
+	color: yellow;
+}
+input[type=button].hide{
+	background-color: #0000fa;
+	color: #0000fa;
+	border: none;
+}
+input[type=button].debug:hover{
+	color: yellow;
+}
+table.background{
+	width: 100%;
+}
+table.teams{
+	width: auto;
+    margin-left: auto;
+    margin-right: 0px;
+}
+table.teams1{
+	width: auto;
+    margin-left: auto;
+    margin-right: 0px;
+	border: solid;
+}
+table.table{
+	text-align: center;
+}
+input[type=button].debug{
+	color: blue;
+	border: none;
+}
+input[type=button]{
+	border: 2px solid black;
+	background-color: blue; 
+	font-size: 25px;
+	color: yellow;
+}
+input[type=button].claimed{
+	background-color: blue;
+	color: blue;
+	border: none;
+}
+div.winner{
+	text-align: center;
+}
