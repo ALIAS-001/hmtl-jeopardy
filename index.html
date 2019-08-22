@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jepardy V3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload='topic()'>
+    <table class='background'>
+        <tr>
+            <td>
+                <h1>Homemade Jeopardy</h1>
+            </td>
+            <td>
+                <table class='teams'>
+                    <tr>
+                        <td>
+                            <h5>Created by: Caleb Chan</h5>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div id='start'>
+        <table>
+            <tr>
+                <td>
+                    team 1
+                </td>
+                <td>
+                    team 2
+                </td>
+                <td>
+                    team 3
+                </td>
+                <td>
+                    team 4
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type='text' id='team1' class='team'>
+                </td>
+                <td>
+                    <input type='text' id='team2' class='team'>
+                </td>
+                <td>
+                    <input type='text' id='team3' class='team'>
+                </td>
+                <td>
+                    <input type='text' id='team4' class='team'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type='button' value="begin" onClick="load()">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id='pointtable'>
+    </div>
+    <div id='winner' class='winner'></div>
+    <!-- admin -->
+    <table>
+        <tr>
+            <td>
+                <input type='button' class='hide' value='1' id='1' onclick='debug()'>
+            </td>
+            <td>
+                <input type='button' class='hide' value='2' id='2' onclick='debug()'>
+            </td>
+            <td>
+                <input type='button' class='hide' value='3' id='3' onclick='debug()'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type='button' class='hide' value='4' id='4' onclick='debug()'>
+            </td>
+            <td>
+                <input type='button' class='hide' value='5' id='5' onclick='debug()'>
+            </td>
+            <td>
+                <input type='button' class='hide' value='6' id='6' onclick='debug()'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type='button' class='hide' value='7' id='7' onclick='debug()'>
+            </td>
+            <td>
+                <input type='button' class='hide' value='8' id='8' onclick='debug()'>
+            </td>
+            <td>
+                <input type='button' class='hide' value='9' id='9' onclick='debug()'>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type='button' class='hide' value='0' onclick='reset()'>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
